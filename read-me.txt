@@ -1,0 +1,17 @@
+suggested downloads:
+	1. pip from http://pypi.python.org/pypi/pip
+	2. distribute from http://pypi.python.org/pypi/distribute
+	3. nose from http://pypi.python.org/pypi/nose/
+		- need to install pip first (check with pip --version). can be installed from a python standard library - python -m ensurepip --default-pip. then do pip install --upgrade pip after installing to ensure its up to date
+		- pip install nose		
+		- typing nosetests after installing from the skeleton directory will produce an output
+	4. virtualenv from http://pypi.python.org/pypi/virtualenv
+
+Whenever starting a new project, just do this:
+	1.  Make a copy of your skeleton directory and name it after your new project.
+	2.  Rename main-module-name to be the name of your project or whatever you want to call the root module.
+	3.  Edit setup.py to have all the information for the project.
+	4.  Rename tests/main-module-name_tests.py to also have the module name.
+	5.  Double check it’s all working using nosetests.
+	6.  Start coding.
+
